@@ -42,7 +42,7 @@ self.addEventListener("activate", function(evt){
 // enable the service worker to intercept network requests
 self.addEventListener("fetch", function(evt){
     // cache succesful requests to the API
-    if (evt.request.url.includes("/api")) {
+    if (evt.request.url.includes("/api/")) {
         evt.respondWith(caches.open(DATA_CACHE_NAME).then(cache => {
             return fetch(evt.request).then(response => {
                 // if response is good then clone it and store it in cache
