@@ -23,6 +23,7 @@ To use the budget-tracker application go to the [deployed link](#Deployed-Link)
 
 ## Demonstration
 
+<img src="/assets/budget_tracker.png" alt="budget tracker image">
 
 ## Technologies
 
