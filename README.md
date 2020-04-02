@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was created to allow user's to be able to add expenses and deposits to their budget with or without a connection. 
+This PWA was created to allow user's to be able to add expenses and deposits to their budget with or without a connection. 
 
 When offline:
 * User is able to enter deposits and expenses
@@ -34,12 +34,14 @@ To use the budget-tracker application go to the [deployed link](#Deployed-Link)
 * Express
 * MongoDB
 * Mongoose
+* IndexedDB
 * Morgan
 * Compression
 * Lite-server
 
 ## Deployed-Link
 
+https://pumpkin-pie-14585.herokuapp.com/
 
 ## Developer
 
